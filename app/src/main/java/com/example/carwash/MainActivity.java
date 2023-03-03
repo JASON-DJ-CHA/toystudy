@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //      데이터바인딩사용하기 2
-        binding = DataBindingUtil.setContentView(this,R.layout.activity_sign_up);
+        binding = DataBindingUtil.setContentView(this,R.layout.activity_main);
 
     }
 }
