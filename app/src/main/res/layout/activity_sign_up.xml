@@ -151,10 +151,28 @@
             android:id="@+id/textView8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="한글자 이상 입력해주세요."
+            android:text="한글, 영문 2자이상."
             app:layout_constraintBottom_toTopOf="@+id/checkBox"
             app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
             app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="이용 약관"
+            app:layout_constraintBottom_toBottomOf="@+id/checkBox2"
+            app:layout_constraintStart_toEndOf="@+id/checkBox2"
+            app:layout_constraintTop_toTopOf="@+id/checkBox2" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개인정보 처리방침"
+            app:layout_constraintBottom_toBottomOf="@+id/checkBox3"
+            app:layout_constraintStart_toEndOf="@+id/checkBox3"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
 
     </android.support.constraint.ConstraintLayout>
 </layout>
